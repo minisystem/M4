@@ -3,9 +3,9 @@
   (general
     (links 398)
     (no_connects 283)
-    (area -7.524999 -14.495 167.325 155.053601)
+    (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 274)
+    (drawings 270)
     (tracks 0)
     (zones 0)
     (modules 181)
@@ -5943,10 +5943,6 @@
     )
   )
 
-  (gr_line (start 106.75 143.25) (end 106.75 38.25) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 164.25 143.25) (end 106.75 143.25) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 164.25 38.25) (end 164.25 143.25) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 106.75 38.25) (end 164.25 38.25) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 105.001096 38.253567) (end 165.601093 38.253567) (layer Eco1.User) (width 0.1))
   (gr_line (start 105.001096 143.253609) (end 165.601093 143.253609) (layer Eco1.User) (width 0.1))
   (gr_line (start 105.0011 155.0036) (end 105.0011 26.503562) (layer Eco1.User) (width 0.1))
