@@ -1094,10 +1094,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 1175 5675 1175
 Wire Wire Line
-	2750 3975 3650 3975
-Wire Wire Line
-	2750 4125 3550 4125
-Wire Wire Line
 	9725 3950 10300 3950
 Wire Wire Line
 	2750 4275 3450 4275
@@ -1223,10 +1219,6 @@ Connection ~ 4050 8975
 Wire Wire Line
 	5275 875  6200 875 
 Connection ~ 6200 2025
-Wire Wire Line
-	3550 4125 3550 7425
-Wire Wire Line
-	3725 2125 4625 2125
 $Comp
 L CONN_01X01 P1
 U 1 1 58C773C2
@@ -1443,16 +1435,6 @@ Wire Wire Line
 	5250 4600 6200 4600
 Connection ~ 6200 5625
 Connection ~ 6200 7325
-Wire Wire Line
-	3650 5725 4625 5725
-Wire Wire Line
-	3550 7425 4625 7425
-Wire Wire Line
-	3725 2125 3725 3675
-Wire Wire Line
-	3725 3675 2750 3675
-Wire Wire Line
-	3650 3975 3650 5725
 $Comp
 L TL074- U5
 U 1 1 58C7E3EE
@@ -1572,12 +1554,6 @@ F 3 "" H 5125 3900 60  0000 C CNN
 	2    5125 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 3825 3725 3825
-Wire Wire Line
-	3725 3825 3725 4000
-Wire Wire Line
-	3725 4000 4625 4000
 $Comp
 L TL074- U5
 U 3 1 58C88595
@@ -2111,7 +2087,7 @@ U 1 1 58C7B0FE
 P 12150 12375
 F 0 "Y1" V 12025 12500 50  0000 C CNN
 F 1 "8MHz" V 12150 12700 50  0000 C CNN
-F 2 "synth:HC-49-SM" H 12150 12375 60  0001 C CNN
+F 2 "synth:403-XTAL-4-SMD" H 12150 12375 60  0001 C CNN
 F 3 "" H 12150 12375 60  0000 C CNN
 	1    12150 12375
 	0    1    1    0   
@@ -4486,4 +4462,20 @@ $EndComp
 Wire Wire Line
 	16525 9725 16525 9800
 Connection ~ 16525 9800
+Text Label 2750 3675 0    60   ~ 0
+DAC_CH0
+Text Label 2750 3825 0    60   ~ 0
+DAC_CH1
+Text Label 2750 3975 0    60   ~ 0
+DAC_CH2
+Text Label 2750 4125 0    60   ~ 0
+DAC_CH3
+Text Label 4625 4000 2    60   ~ 0
+DAC_CH0
+Text Label 4625 5725 2    60   ~ 0
+DAC_CH1
+Text Label 4625 7425 2    60   ~ 0
+DAC_CH2
+Text Label 4625 2125 2    60   ~ 0
+DAC_CH3
 $EndSCHEMATC
