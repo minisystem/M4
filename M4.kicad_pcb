@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -65,7 +65,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF77F)
+    (visible_elements 7FFFB77F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -2076,10 +2076,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E3C)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD6C) (tstamp 58C89E3C)
     (at 135.3 120.6 270)
     (path /58CBB195)
-    (fp_text reference J1 (at 0 6.5 270) (layer F.SilkS)
+    (fp_text reference J1 (at -3.6 -4.45 360) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 270) (layer F.SilkS) hide
@@ -2106,10 +2106,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E4A)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD79) (tstamp 58C89E4A)
     (at 135.3 135.6)
     (path /58CBDFD4)
-    (fp_text reference J2 (at 0 6.5) (layer F.SilkS)
+    (fp_text reference J2 (at -3.55 -4.35) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8) (layer F.SilkS) hide
@@ -2136,10 +2136,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E58)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD35) (tstamp 58C89E58)
     (at 135.3 90.6 90)
     (path /58CBAF5F)
-    (fp_text reference J3 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J3 (at 3.6 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2166,10 +2166,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E66)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD4B) (tstamp 58C89E66)
     (at 135.3 105.6 90)
     (path /58CBB180)
-    (fp_text reference J4 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J4 (at 3.85 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2196,10 +2196,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E74)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD25) (tstamp 58C89E74)
     (at 135.3 75.6 90)
     (path /58C9235E)
-    (fp_text reference J5 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J5 (at 3.85 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2226,10 +2226,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E82)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD29) (tstamp 58C89E82)
     (at 120.3 75.6 90)
     (path /58C77209)
-    (fp_text reference J6 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J6 (at 3.85 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2256,10 +2256,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E90)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD30) (tstamp 58C89E90)
     (at 120.3 90.6 90)
     (path /58C8671C)
-    (fp_text reference J7 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J7 (at -3.65 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2286,10 +2286,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89E9E)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD45) (tstamp 58C89E9E)
     (at 120.3 105.6 90)
     (path /58C7BF31)
-    (fp_text reference J8 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J8 (at 3.85 -4.55 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2316,10 +2316,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89EAC)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD69) (tstamp 58C89EAC)
     (at 120.3 120.6 270)
     (path /58C7BF57)
-    (fp_text reference J9 (at 0 6.5 270) (layer F.SilkS)
+    (fp_text reference J9 (at -3.6 -4.2 360) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 270) (layer F.SilkS) hide
@@ -2346,10 +2346,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58C98779) (tstamp 58C89EBA)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD18) (tstamp 58C89EBA)
     (at 150.3 75.6 90)
     (path /58D375AB)
-    (fp_text reference J10 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J10 (at 3.85 -3.8 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0.1 -2.6 90) (layer F.SilkS) hide
@@ -2376,10 +2376,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89EC8)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD39) (tstamp 58C89EC8)
     (at 150.3 90.6 90)
     (path /58D3B4FE)
-    (fp_text reference J11 (at 0 6.5 90) (layer F.SilkS)
+    (fp_text reference J11 (at 3.6 -4.05 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2406,10 +2406,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CB4563) (tstamp 58C89ED6)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD50) (tstamp 58C89ED6)
     (at 150.3 105.6 90)
     (path /58D3CE13)
-    (fp_text reference J12 (at 3.6 2.95 180) (layer F.SilkS)
+    (fp_text reference J12 (at 3.85 -3.8 180) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8 90) (layer F.SilkS) hide
@@ -2436,10 +2436,10 @@
     )
   )
 
-  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 566A506D) (tstamp 58C89EE4)
+  (module MyModules:PJ-301B-JACK-SLOTS (layer F.Cu) (tedit 58CDBD73) (tstamp 58C89EE4)
     (at 150.3 120.6)
     (path /58D3E0DB)
-    (fp_text reference J13 (at 0 6.5) (layer F.SilkS)
+    (fp_text reference J13 (at 3.45 -3.6 90) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value PJ-301B (at 0 -8) (layer F.SilkS) hide
@@ -4598,10 +4598,10 @@
     )
   )
 
-  (module MyModules:B3F-1050-OMRON (layer F.Cu) (tedit 58C87784) (tstamp 58C8A2D7)
+  (module MyModules:B3F-1050-OMRON (layer F.Cu) (tedit 58CDBD40) (tstamp 58C8A2D7)
     (at 160.1 60.6 90)
     (path /58D0ED62)
-    (fp_text reference SW6 (at 4.8 0 180) (layer F.SilkS)
+    (fp_text reference SW6 (at -4.9 0.15 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value B3F-1050 (at 0 -6.25 90) (layer F.Fab) hide
@@ -5144,13 +5144,13 @@
     )
   )
 
-  (module MyModules:RV16A-41-JRL (layer F.Cu) (tedit 537CC501) (tstamp 58C8A45C)
+  (module MyModules:RV16A-41-JRL (layer F.Cu) (tedit 58CDBE5C) (tstamp 58C8A45C)
     (at 150 47.3)
     (path /58CE7C0A)
-    (fp_text reference VR2 (at 0 0) (layer F.SilkS)
+    (fp_text reference VR2 (at -5 -2.8) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value 10K (at 0 9.99998) (layer F.SilkS)
+    (fp_text value 10K (at 0 9.99998) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -3 13) (end -3 16) (layer F.SilkS) (width 0.15))
@@ -5178,13 +5178,13 @@
     )
   )
 
-  (module MyModules:RV16A-41-JRL (layer F.Cu) (tedit 537CC501) (tstamp 58CA9E32)
+  (module MyModules:RV16A-41-JRL (layer F.Cu) (tedit 58CDBE59) (tstamp 58CA9E32)
     (at 120.3 47.3 90)
     (path /58C771A9)
-    (fp_text reference VR1 (at 0 0 90) (layer F.SilkS)
+    (fp_text reference VR1 (at 3.55 -4.3 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value 10K (at 0 9.99998 90) (layer F.SilkS)
+    (fp_text value 10K (at 0 9.99998 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -3 13) (end -3 16) (layer F.SilkS) (width 0.15))
@@ -5212,12 +5212,12 @@
     )
   )
 
-  (module MyModules:SD-50BV-5DIN-SLOTS (layer F.Cu) (tedit 57D96E81) (tstamp 58C8A468)
+  (module MyModules:SD-50BV-5DIN-SLOTS (layer F.Cu) (tedit 58CDBD7D) (tstamp 58C8A468)
     (at 115.1 135.6 90)
     (descr http://www.cui.com/product/resource/sd-xxbv-series.pdf)
     (tags MIDI)
     (path /58C77196)
-    (fp_text reference X1 (at 0 9 90) (layer F.SilkS)
+    (fp_text reference X1 (at 1.85 0.15 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "MIDI IN" (at 0 -8.5 90) (layer F.Fab) hide
@@ -5277,10 +5277,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87694)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD90) (tstamp 58C87694)
     (at 152.3 140.9)
     (path /58C9ADEE)
-    (fp_text reference D16 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D16 (at -3.3 0.1) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5310,10 +5310,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58CA9E2B)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE44) (tstamp 58CA9E2B)
     (at 140.5 60.4)
     (path /58C9A3D2)
-    (fp_text reference D8 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D8 (at 2 1.85 90) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5343,10 +5343,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C876AD)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD83) (tstamp 58C876AD)
     (at 123.8 140.9)
     (path /58D17450)
-    (fp_text reference D21 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D21 (at -0.05 -1.9 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5376,10 +5376,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C876A8)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD9C) (tstamp 58C876A8)
     (at 111.8 120.6 270)
     (path /58C77077)
-    (fp_text reference D20 (at 0 -2.5 270) (layer F.SilkS)
+    (fp_text reference D20 (at -2.85 0.05 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 270) (layer F.SilkS) hide
@@ -5409,10 +5409,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C876A3)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDA0) (tstamp 58C876A3)
     (at 111.8 105.6 270)
     (path /58C7709B)
-    (fp_text reference D19 (at 0 -2.5 270) (layer F.SilkS)
+    (fp_text reference D19 (at -2.85 0.05 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 270) (layer F.SilkS) hide
@@ -5442,10 +5442,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8769E)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDA5) (tstamp 58C8769E)
     (at 111.8 90.6 270)
     (path /58C770AF)
-    (fp_text reference D18 (at 0 -2.5 270) (layer F.SilkS)
+    (fp_text reference D18 (at -2.85 0.05 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 270) (layer F.SilkS) hide
@@ -5475,10 +5475,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87699)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDAC) (tstamp 58C87699)
     (at 111.8 75.6 270)
     (path /58C770C3)
-    (fp_text reference D17 (at 0 -2.5 270) (layer F.SilkS)
+    (fp_text reference D17 (at -2.6 0.05 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 270) (layer F.SilkS) hide
@@ -5508,10 +5508,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8768F)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD8B) (tstamp 58C8768F)
     (at 152.3 137.4)
     (path /58C9ADE1)
-    (fp_text reference D15 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D15 (at -3.3 0.1) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5541,10 +5541,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8768A)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD94) (tstamp 58C8768A)
     (at 152.3 133.9)
     (path /58C9ADD4)
-    (fp_text reference D14 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D14 (at -3.3 0.1) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5574,10 +5574,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87685)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBD87) (tstamp 58C87685)
     (at 152.3 130.4)
     (path /58C9ADC7)
-    (fp_text reference D13 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D13 (at -3.3 0.1) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5607,10 +5607,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87680)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE24) (tstamp 58C87680)
     (at 140.5 63.97 90)
     (path /58C9ADBA)
-    (fp_text reference D12 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D12 (at -2.78 0 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5640,10 +5640,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8767B)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE21) (tstamp 58C8767B)
     (at 137 64)
     (path /58C9ADAD)
-    (fp_text reference D11 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D11 (at -0.25 4) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5673,10 +5673,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87676)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE1D) (tstamp 58C87676)
     (at 133.6 63.97 90)
     (path /58C9ADA0)
-    (fp_text reference D10 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D10 (at -4.03 -0.1 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5706,10 +5706,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87671)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDE0) (tstamp 58C87671)
     (at 130.03 63.9)
     (path /58C9AD93)
-    (fp_text reference D9 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D9 (at -0.03 2.85) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5739,10 +5739,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87667)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE22) (tstamp 58C87667)
     (at 137 60.37 90)
     (path /58C9A3C5)
-    (fp_text reference D7 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D7 (at -6.38 -0.25 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5772,10 +5772,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87662)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE1C) (tstamp 58C87662)
     (at 133.53 60.4)
     (path /58C9A3B8)
-    (fp_text reference D6 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D6 (at -0.03 6.35) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5805,10 +5805,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8765D)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDC3) (tstamp 58C8765D)
     (at 130.1 60.47 90)
     (path /58C9A3AB)
-    (fp_text reference D5 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D5 (at -0.03 -3.1 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5838,10 +5838,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87658)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE3B) (tstamp 58C87658)
     (at 140.5 56.9 90)
     (path /58C99D72)
-    (fp_text reference D4 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D4 (at 2.65 0 360) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5871,10 +5871,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C87653)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBDEB) (tstamp 58C87653)
     (at 137 56.9)
     (path /58C99D65)
-    (fp_text reference D3 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D3 (at 0.25 -2.4) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
@@ -5904,10 +5904,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C8764E)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE2E) (tstamp 58C8764E)
     (at 133.5 56.9 90)
     (path /58C99B3C)
-    (fp_text reference D2 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference D2 (at 1.9 -2 180) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5 90) (layer F.SilkS) hide
@@ -5937,10 +5937,10 @@
     )
   )
 
-  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58C81D6D) (tstamp 58C89948)
+  (module MyModules:1.8MM-LED-TLUG240 (layer F.Cu) (tedit 58CDBE33) (tstamp 58C89948)
     (at 130 56.9)
     (path /58C97258)
-    (fp_text reference D1 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference D1 (at -3 -0.15) (layer F.SilkS)
       (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     )
     (fp_text value LED (at 0 2.5) (layer F.SilkS) hide
